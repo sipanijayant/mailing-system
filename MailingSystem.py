@@ -9,8 +9,8 @@ class MailingSystem:
     def __init__(self):
         self.host = "localhost"
         self.dbname = "Gmail"
-        self.dbuser = "ruthwik"
-        self.dbpassword = "ruthwik"
+        self.dbuser = "sample"
+        self.dbpassword = "sample"
 
     def viewFolders(self,user):
         owner = user[0]
