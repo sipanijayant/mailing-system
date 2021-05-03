@@ -3,7 +3,3 @@ A simple mailing system written in Python, with the connection to a PostgresQL D
 
 It includes functionalities such as View and Send mails, Search mails, Create and manage Folders. 
 
-Contributors:
-@github/RuthwikHM
-@github/AdityaBurli06
-@github/sipanijayant
