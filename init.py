@@ -1,6 +1,6 @@
 import psycopg2
 
-conn = psycopg2.connect("dbname=Gmail user=ruthwik password=ruthwik")
+conn = psycopg2.connect("dbname=Gmail user=sample password=sample")
 cur = conn.cursor()
 cur.execute("DROP TABLE IF EXISTS users,mails,folders")
 cur.execute("""CREATE TABLE users (
